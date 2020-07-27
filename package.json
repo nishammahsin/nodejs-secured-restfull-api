@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-secured-restfull-api",
+  "version": "1.0.0",
+  "description": "'Secured restfull api using nodejs and auth 2.0'",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development && babel-node -- ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishammahsin/nodejs-secured-restfull-api.git"
+  },
+  "author": "Nisham Mahsin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishammahsin/nodejs-secured-restfull-api/issues"
+  },
+  "homepage": "https://github.com/nishammahsin/nodejs-secured-restfull-api#readme"
+}
