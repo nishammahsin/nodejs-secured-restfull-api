@@ -8,8 +8,9 @@
 7. ~~practitioner router~~
 8. ~~middleware for authentication~~
 9. ~~add auth middleware wherever required~~
-10. file upload
-11. docker setup
+10. write test
+11. file upload
+12. docker setup
  
 #### Questions
 1. what is the size of entries per page
