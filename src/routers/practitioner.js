@@ -32,7 +32,7 @@ router.put('/practitioners/:id', auth, async (req, res) => {
   } catch (error) {}
 });
 
-router.get('/practitioners/:id', auth, async (req, res) => {
+router.get('/practitioners/:id', async (req, res) => {
   try {
     const _id = req.params.id;
 
@@ -51,7 +51,7 @@ router.get('/practitioners/:id', auth, async (req, res) => {
   }
 });
 
-router.get('/practitioners', auth, async (_, res) => {
+router.get('/practitioners', async (_, res) => {
   try {
     Practioner.find({}, (err, practioners) => {
       if (err) {
