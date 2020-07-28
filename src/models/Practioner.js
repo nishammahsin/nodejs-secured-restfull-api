@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+var paginate = require("mongoose-paginate-v2");
 
 const practitionerSchema = mongoose.Schema({
     name: {
@@ -23,6 +24,8 @@ const practitionerSchema = mongoose.Schema({
         trim: true
     },
 })
+
+practitionerSchema.plugin(paginate);
 
 const Practitioner = mongoose.model('Practitioner', practitionerSchema)
 
